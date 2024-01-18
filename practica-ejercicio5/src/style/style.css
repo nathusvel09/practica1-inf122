@@ -1,0 +1,22 @@
+:root{
+    --green: green;
+    --red: red;
+    --yellow: yellow;
+    --white: #ffffff;
+    --greenlight: #30d181;
+    
+}
+
+.boton {
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 10px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: var(--green);
+  color: var(var(--white));
+}
+button:hover {
+  background-color: var(--greenlight);
+} 

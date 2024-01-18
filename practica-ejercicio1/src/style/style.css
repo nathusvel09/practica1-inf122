@@ -1,0 +1,22 @@
+:root{
+    --lila: #663399;
+    --lilasky: #ad6dee;
+}
+h1 {
+    margin: 0;
+  }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button {
+  background-color: var(--lila);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+button:hover {
+  background-color: var(--lilasky);
+}  

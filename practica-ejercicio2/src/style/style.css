@@ -1,0 +1,37 @@
+:root{
+    --green: green;
+    --greensky: #30d181;
+    --red: red;
+    --pink: #e65d45;
+    --yellow: yellow;
+    --yellowsky: #f0f075;
+    --white: white;
+}
+
+  button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin: 10px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .boton-iniciar {
+    background: var(--green)
+  }
+  .boton-parar {
+    background: var(--red)
+  }
+  .boton-reiniciar {
+    background: var(--yellow);
+  }
+  .boton-iniciar:hover {
+    background-color: var(--greensky);
+  }  
+  .boton-parar:hover {
+    background-color: var(--pink);
+  }  
+  .boton-reiniciar:hover {
+    background-color: var(--yellowsky);
+  }  
+  
